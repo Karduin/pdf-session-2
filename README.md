@@ -1,2 +1,6 @@
-# MoocPython
-PDF du Mooc Python 2018
+# Mooc Python 3
+### des fondamentaux aux concepts avancés du langage
+#### Thierry Parmentelat et Arnaud Legout
+
+Fichiers LaTeX et pdf généré à partir ces notebooks du cours.
+Deuxieme session du 17 septembre 2018
