@@ -39,7 +39,8 @@ Télécharger les notebooks option LaTeX.
     * Les cellules doivent avoir été exécutées. 
     * Sauf : 
         ◦ Celles destinées au code des étudiants. 
-        ◦ Celles utilisant Python Tutor (pas pris en compte dans LaTex). 
+        ◦ Celles utilisant Python Tutor (pas pris en compte dans LaTex).
+        ◦ Celles des exercices.
 Étape 2
 
 Création du fichier maître.
@@ -52,7 +53,7 @@ Création du fichier maître.
     * Ajouter la ligne \usepackage[francais]{babel} (Typographie française). 
     * Dans la section %Document parameters mettre en remarque la ligne \title{titre} =>%\title{titre}. 
     * Si vous n'avez pas enlevé \maketitle sous \begin{document}, le mettre en remarque. 
-    * Sous \begin{document}, on insère la page de garde. (Voir le modèle que j'utilise: page_garde.tex) 
+    * Sous \begin{document}, on insère la page de garde. (Voir python.tex)
     * Insérer la commande \tableofcontents pour la table des matières. 
     * Insérer ensuite la commande \chapter{blabla} et les commandes \include{fichier} (voir python.tex) 
 Plus simplement utilisez mon fichier python.tex comme base.
@@ -86,6 +87,9 @@ Problèmes rencontrés.
 
     • Inserer une image :
     \includegraphics{medias/notebook-eval-button.png}
+    
+    * Des equations à remettre en forme
 
-L’essentielle des problèmes rencontrés provient du fait que les fichiers sont générés par Jupyter qui fonctionne comme Sphinx à partir des fichiers rst.
+Et divers petits choses.
+
 Je n’ai pas fait de script python pour automatiser une partie du travail parce qu’un contrôle visuel du rendu final est indispensable.
